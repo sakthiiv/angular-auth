@@ -1,0 +1,13 @@
+﻿<ul class="nav nav-pills pull-right">
+    <li>
+        <div class="user-label" ng-show="authenticated">
+            <span class="label label-default" style="height: 30px;">Welcome, {{ currentUser }}!</span>
+        </div>
+    </li>
+    <li>
+        <a href="#" ng-show="authenticated" ng-click="logout()">Log out</a>
+    </li>
+    <li>
+        <a href="#" ng-hide="authenticated" ng-click="login()">Log in</a>
+    </li>
+</ul>

@@ -1,0 +1,56 @@
+﻿/*site.css*/
+body {
+    font: 14px Helvetica, Arial, sans-serif;
+    color: #222222;
+}
+
+table.login-block {
+    width: 65%;
+    margin: 0 17%;
+}
+
+.navbar {
+    min-height: 0 !important;
+    margin-bottom: 0px !important;
+}
+
+div.user-label {
+    padding: 10px 15px;
+}
+
+    div.user-label span {
+        padding: 5px;
+    }
+
+table.login-block td {
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+
+table.login-block > tbody > tr > td {
+    border-top: 0px solid #ccc;
+}
+
+.menuBar {
+    margin-top: 10px;
+    /*border-top: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc;*/
+}
+
+.user-table {
+    width: 50%;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}

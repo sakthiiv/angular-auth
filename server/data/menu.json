@@ -1,0 +1,22 @@
+[{
+	"item" : "home",
+	"label" : "Home",
+	"url" : { "route" : "#/home", "location" : "home/home.html", "controller" : "HomeController" }
+},{
+	"item" : "products",
+	"label" : "Products",
+	"url" : { "route" : "#" }
+},{
+	"item" : "contactUs",
+	"label" : "Contact Us",
+	"url" : { "route" : "#" }
+},{
+	"item" : "about",
+	"label" : "About",
+	"url" : { "route" : "#" }
+},{
+	"item" : "admin",
+	"label" : "Admin",
+	"url" : { "route" : "#/admin", "location" : "admin/admin.html", "controller" : "AdminController" },
+	"role" : "1"
+}]

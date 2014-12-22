@@ -1,0 +1,65 @@
+﻿<!doctype html>
+<html ng-app='authApp'>
+<head>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="/css/app.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-collapse collapse">
+                <auth-toolbar></auth-toolbar>
+            </div>
+        </div>
+    </div>
+    <div class="page-header container">
+        <h1>Authentication</h1>
+    </div>
+    <div class="container">
+        <div class="navbar">
+            <auth-menubar></auth-menubar>
+        </div>
+    </div>
+    <section id="body" class="container">
+        <ng-view></ng-view>
+    </section>
+    <!-- UI Libraries - Starts Here-->
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.cookie.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/angular.js"></script>
+    <script src="/js/angular-resource.js"></script>
+    <script src="/js/angular-route.min.js"></script>
+    <script src="/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
+
+    <!-- UI Libraries - Ends Here-->
+
+    <script src="app.js"></script>
+
+    <!-- Cookie and Token Related Files - Starts Here-->
+
+    <script src="/common/cookie/cookieStore.js"></script>
+    <script src="/common/cookie/cookieService.js"></script>
+    <script src="/common/interceptor/tokenInterceptor.js"></script>
+
+    <!-- Cookie and Token Related Files - Ends Here-->
+
+    <!-- Login Service Related Files - Starts Here-->
+
+    <script src="/login/loginService.js"></script>
+    <script src="/login/login.js"></script>
+
+    <!-- Login Service Related Files - Ends Here-->
+
+    <script src="/admin/adminService.js"></script>
+    <script src="/admin/adminController.js"></script> 
+
+    <script src="/common/toolbar/toolbar.js"></script>
+
+    <script src="/common/menubar/menubar.js"></script>
+    <script src="/common/menubar/menuService.js"></script> 
+
+</body>
+</html>
