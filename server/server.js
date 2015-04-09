@@ -23,7 +23,8 @@ var CONSTANTS = {
 
 //Constants - End
 
-app.use(express.bodyParser());
+app.use(express.json());
+app.use(express.urlencoded());
 app.set(CONSTANTS.TOKEN_SECRET_LABEL, CONSTANTS.TOKEN_SECRET);
 
 //Public directories to be exposed

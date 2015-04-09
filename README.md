@@ -1,4 +1,4 @@
-Angular-Auth
+angular-auth
 ============
 
 Angular Authorisation and Authentication
@@ -7,7 +7,9 @@ Angular Authorisation and Authentication
 
 Following should be performed for this project to run
 
-1. Install npm packages, inside Angular-Auth/server do an npm install
+1. Install global dependencies: ``npm install mocha -g``
+2. Install local dev dependencies: ``npm install`` in ~/angular-auth/server directory
+3. Start Server: ``node server.js`` in ~/angular-auth/server directory
 
 #### Features Implemented
 
