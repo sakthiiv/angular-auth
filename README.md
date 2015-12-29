@@ -5,7 +5,7 @@ Angular Authorisation and Authentication
 
 #### Dependencies
 
-Following should be performed for this project to run
+Following these steps
 
 1. Install global dependencies: ``npm install mocha -g``
 2. Install local dev dependencies: ``npm install`` in ~/angular-auth/server directory
