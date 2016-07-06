@@ -8,8 +8,8 @@ Angular Authorisation and Authentication
 Follow these steps
 
 1. Install global dependencies: __``npm install mocha -g``__
-2. Install local dev dependencies: __``npm install``__ in __``~/angular-auth/server directory``__
-3. Start Server: __``node server.js``__ in __``~/angular-auth/server directory``__
+2. Install local dev dependencies: __``npm install``__ in __``~/angular-auth/server``__ directory
+3. Start Server: __``node server.js``__ in __``~/angular-auth/server``__ directory
 
 ### Features Implemented
 
